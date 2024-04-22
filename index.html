@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="display">
+            <input type="text" id="display" disable>
+        </div>
+        <div class="keys">
+            <div class="row1">
+                <button class="operator" value="+" onclick="fxn1('+')">+</button>
+                <button class="operator" value="-" onclick="fxn1('-')">-</button>
+                <button class="operator" value="*" onclick="fxn1('*')">*</button>
+                <button class="operator" value="/" onclick="fxn1('/')">/</button>
+            </div>
+            <div class="row2">
+                <button class="button" value="7" onclick="fxn1('7')">7</button>
+                <button class="button" value="8" onclick="fxn1('8')">8</button>
+                <button class="button" value="9" onclick="fxn1('9')">9</button>
+                <button class="button" value="4" onclick="fxn1('4')">4</button>
+            </div>
+            <div class="row3">
+                <button class="button" value="5" onclick="fxn1('5')">5</button>
+                <button class="button" value="6" onclick="fxn1('6')">6</button>
+                <button class="button" value="1" onclick="fxn1('1')">1</button>
+                <button class="button" value="2" onclick="fxn1('2')">2</button>
+            </div>
+            <div class="row4">
+                <button class="button" value="3" onclick="fxn1('3')">3</button>
+                <button class="button" value="0" onclick="fxn1('0')">0</button>
+                <button class="button" value="." onclick="fxn1('.')">.</button>
+                <button id="clear" onclick="fxn2()">C</button>
+            </div>
+            <div class="row4">
+                <button id="delete" onclick="fxn3()">DEL</button>
+                <button id="calculate" onclick="fxn4()">=</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
