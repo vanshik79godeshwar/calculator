@@ -49,6 +49,7 @@ body
     justify-content: center;
     flex-direction: column;
     border-top: 2px solid black;
+    flex : 1;
 }
 .keys button
 {
@@ -74,5 +75,5 @@ body
     display: flex;
     justify-content: center;
     flex-direction: row;
-    
+    flex-wrap: wrap;
 }
